@@ -83,7 +83,22 @@ header {
     padding: 10px;
 }
 
+#btm-hdr ul li {
+    border-top: #000000;
+    border-bottom: #000000;
+    border-right: #28282b;
+    display: block;
+    padding: 25px 20px;
+}
 
+#btm-hdr ul li a {
+    color: rgba(255,255,255,255);
+    font-size: 16px;
+    border-top: #000000;
+    border-bottom: #000000;
+    border-right: #28282b;
+    display: flex;
+}
 
 
 /*
