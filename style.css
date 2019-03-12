@@ -27,7 +27,7 @@ span {
     margin: 0;
 }
 
-h3 {
+h2 {
     margin: 0;
 }
 
@@ -114,6 +114,7 @@ header ul li:last-child {
 #btm-hdr ul li a:hover {
     background: #000000;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .container #btm-hdr {
@@ -128,13 +129,13 @@ header ul li:last-child {
 #image img {
     width: 100%;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #description {
     position: absolute;
     display: inline-flex;
-    margin-top: 285px;
+    margin-top: 270px;
     margin-left: 20px;
 }
 
@@ -152,6 +153,7 @@ header ul li:last-child {
     align-items: center;
     padding: 5px;
     background: #1f2021;
+    cursor: pointer;
 }
 
 .left_arow {
@@ -162,61 +164,66 @@ header ul li:last-child {
     width: 90%;
 }
 
-/*
-
-#hea-top {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 20px;
-
+.latest_one {
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 5px;
+    background: #ebebeb;
+    margin-bottom: 30px;
 }
 
-#hea-top .logo {
-    color: rgba(255,255,255,255);
-    font-size: 32px;
-    align-items: center;
-}
-
-/*
-header .srch {
+.latest_one span {
+    color: rgba(74,74,74,255);
+    background: white;
+    padding: 10px;
+    max-width: 160px;
+    font-size: 16px;
     display: block;
+    position: relative;
+    margin: auto;
+    top: -16px;
 }
 
-
-header .srch {
-    padding: 0 20px;
+#gallery {
+    width: 100%;
+    justify-content: space-between;
 }
 
-.btn {
+.wrap {
+    max-width: 300px;
+}
+
+.wrap .wrap-image img {
+    width: 100%;
+}
+
+.wrap h2 {
+    color: #4a4a4a;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.wrap p {
+    color: #999999;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.wrap a {
     cursor: pointer;
     background: #4fb51e;
     border: none;
-    border-radius: 5px;
-    font-size: 12px;
+    border-radius: 10px;
+    font-size: 13px;
     color: rgba(255,255,255,255);
     text-transform: uppercase;
     padding: 10px;
+    display: block;
+    width: 90px;
+    margin-bottom: 40px;
 }
-
-header ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-header #charter {
-    display: flex;
-    justify-content: space-between;
-}
-
-#charter {
-    cursor: pointer;
-    font-size: 16px;
-    text-transform: uppercase;
-    padding: 0 20px;
-    min-height: 60px;
-    background: #1f1f21;
-    color: rgba(255,255,255,255);
-}
-
-
