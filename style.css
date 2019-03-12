@@ -27,6 +27,10 @@ span {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+}
+
 .container {
     max-width: 1000px;
     margin: auto;
@@ -119,6 +123,43 @@ header ul li:last-child {
 
 #btm-hdr ul li a:last-child {
     padding-right: 25px;
+}
+
+#image img {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#description {
+    position: absolute;
+    display: inline-flex;
+    margin-top: 285px;
+    margin-left: 20px;
+}
+
+#description p {
+    width: 550px;
+    text-align: center;
+    font-size: 36px;
+    color: rgba(255,255,255,255);
+    background: #4fb51e;;
+    padding: 15px 0px 15px 10px;
+}
+
+#arows {
+    display: grid;
+    align-items: center;
+    padding: 5px;
+    background: #1f2021;
+}
+
+.left_arow {
+    width: 90%;
+}
+
+.right_arow {
+    width: 90%;
 }
 
 /*
