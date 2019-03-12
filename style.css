@@ -45,6 +45,7 @@ header {
     justify-content: space-between;
     align-items: center;
     min-height: 100px;
+    border-bottom: 1px solid #000000;
 }
 
 #logo, #srch {
@@ -83,23 +84,42 @@ header {
     padding: 10px;
 }
 
-#btm-hdr ul li {
-    border-top: #000000;
-    border-bottom: #000000;
-    border-right: #28282b;
-    display: block;
-    padding: 25px 20px;
+header ul {
+    width: 100%;
+    display: inline-flex;
+    background: #1f1f21;
+
+}
+
+header ul li {
+    border-right: 1px solid #28282b;
+}
+
+header ul li:last-child {
+    border-right: none;
 }
 
 #btm-hdr ul li a {
+    display: block;
     color: rgba(255,255,255,255);
     font-size: 16px;
-    border-top: #000000;
-    border-bottom: #000000;
-    border-right: #28282b;
-    display: flex;
+    text-transform: uppercase;
+    padding: 25px 20px;
 }
 
+#btm-hdr ul li a:hover {
+    background: #000000;
+    cursor: pointer;
+}
+
+.container #btm-hdr {
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+#btm-hdr ul li a:last-child {
+    padding-right: 25px;
+}
 
 /*
 
