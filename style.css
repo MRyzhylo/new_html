@@ -31,6 +31,10 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+}
+
 .container {
     max-width: 1000px;
     margin: auto;
@@ -316,4 +320,69 @@ header ul li:last-child {
 .product-block .comment-block a {
     font-size: 13px;
     color: rgba(78,180,30,255);
+}
+
+footer {
+    background: #18191b;
+}
+
+#footer-top {
+    justify-content: space-between;
+    border-bottom: 1px solid #27282c;
+}
+
+.footer-block {
+    max-width: 300px;
+}
+
+.footer-block h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 35px 0;
+    color: rgba(151,151,151,255);
+    font-weight: bold;
+}
+
+.footer-block h3 {
+    color: rgba(88,92,95,255);
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.footer-block p {
+    font-size: 13px;
+    color: rgba(88,91,95,255);
+    padding: 10px 0;
+}
+
+.footer-block a {
+    font-size: 13px;
+    color: rgba(78,180,30,255);
+}
+
+.newsletter form input {
+    background: #28282b;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgba(88,92,95,255);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.newsletter form button {
+    margin-bottom: 40px;
+}
+
+#footer-botom {
+    justify-content: space-between;
+}
+
+#footer-botom p {
+    display: block;
+    color: rgba(88,92,95,255);
+    font-size: 12px;
+    padding: 15px 0 20px 0;
 }
