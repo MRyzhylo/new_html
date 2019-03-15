@@ -393,6 +393,10 @@ footer {
     .container {
         margin: 0 8px !important;
     }
+
+    #gallery {
+        width: 98%;
+    }
 }
 
 @media(max-width: 970px) {
@@ -439,6 +443,15 @@ footer {
         margin-top: 25px;
     }
 
+    #gallery {
+        width: 96%;
+        justify-content: space-between;
+    }
+
+    #chsrters-block {
+        width: 98%;
+    }
+
     .latest_two {
         max-width: 450px;
     }
@@ -464,7 +477,6 @@ footer {
 
     #chsrters-block {
         flex-direction: column;
-        width: 100%;
     }
 
     #products {
@@ -513,7 +525,7 @@ footer {
     }
 
     #description {
-        width: 100%;
+        width: 98%;
         max-width: 550px;
         margin-top: 130px;
     }
@@ -534,7 +546,6 @@ footer {
 
     #gallery {
         flex-direction: column;
-        width: 100%;
     }
 
     #gallery .wrap {
